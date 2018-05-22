@@ -1,0 +1,149 @@
+body{background-color: #F9F9F9;}
+.c_content{width: 1200px;margin: 0px auto;}
+.c_content{}
+.c_content .c_title{margin: 20px auto;}
+.c_content .c_title a{}
+
+.c_content .c_message{background-color: #fff;padding: 20px 15px;margin-bottom: 50px;}
+.c_content .c_message .p_name{    font-size: 14px;
+    font-weight: bold;}
+.c_content .c_message .p_time{    padding: 10px;
+    background-color: #EEEEEE;
+    margin: 10px auto 0px;
+    font-size: 14px;
+    color: #A0A0A0;}
+.c_content .c_message .p_content{    padding: 20px 10px 20px 0px;
+    border: 1px solid #EEEEEE;}
+
+.c_content .c_message .p_content .c_type{    width: 75px;
+    float: left;}
+.c_content .c_message .p_content .c_type span{    padding: 3px 7px;
+    background-color: #EE6A3C;
+    color: #FFF;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 15px;}
+.c_content .c_message .p_content .c_name{    width: 600px;
+    float: left;}
+.c_content .c_message .p_content .c_name p{    font-size: 18px;}
+.c_content .c_message .p_content .c_name em{    font-size: 14px;
+    margin-top: 3px;
+    display: block;}
+.c_content .c_message .p_content .c_price{    width: 100px;
+    float: right;    margin-top: 15px;
+    text-align: right;}
+
+.c_content .c_message .p_card{border: 1px solid #EEEEEE;border-top: 0px;
+padding: 30px 10px;
+}
+.c_content .c_message .p_card .p_c_type{    width: 100px;
+    float: left;}
+.c_content .c_message .p_card .card{width: 700px;
+    float: left;}
+.c_content .c_message .p_card .card input{}
+.c_content .c_message .p_card .card a{background-color: #EEEEEE;padding: 8px 17px;color: #a3a3a3;}
+.c_content .c_message .p_card .card_nub{width: 100px;
+    float: right;
+    text-align: right;}
+
+.c_content .c_message .pay_nub{    text-align: right;
+    margin-top: 20px; }
+.c_content .c_message .pay_nub em{}
+.c_content .c_message .pay_nub span{}
+
+.c_content .c_message .pay_type{    margin-top: 20px;}
+.c_content .c_message .pay_type .pay_zfb{      float: right;
+    line-height: 30px;background: url('../img/pay/1.png') no-repeat left center;
+    height: 30px;    background-size: 18px;
+    width: 110px;
+    padding-left: 25px;
+}
+.c_content .c_message .pay_type .pay_wx{    float: right;
+line-height: 30px;background: url('../img/pay/2.png') no-repeat left center;
+    height: 30px;background-size: 18px;
+    width: 110px;
+    padding-left: 25px;
+}
+
+.c_content .c_message .pay_type img{width: 30px;display: block;float: left;}
+.c_content .c_message .pay_type span{width: 65px;display: block;float: left;margin-left: 10px;}
+
+
+
+.c_content .c_message .p_agree{    text-align: right;
+    margin-top: 50px;}
+.c_content .c_message .p_agree input{background: url('../img/pay/4.png');}
+.c_content .c_message .p_agree span{}
+
+
+.c_content .c_message .p_sub{    height: 80px;    line-height: 80px;
+    text-align: right;    margin-top: 20px;}
+.c_content .c_message .p_sub a{    background-color: #EE6A3C;
+    padding: 15px 50px;
+    color: #fff;
+    border-radius: 5px;}
+
+
+.c_message{}
+.c_message .success{    width: 500px;
+    margin: 35px auto;}
+.c_message .success img{    display: block;
+    margin: 0px auto;
+    width: 50px;}
+.c_message .success span{display: block;
+    margin: 20px auto;
+    width: 160px;
+    font-size: 30px;
+    text-align: center;
+    color: #38D390;}
+.c_message .success p{    display: block;
+    margin: 0px auto 50px;
+    width: 200px;
+    text-align: center;
+    color: #9F9F9F;}
+.c_message .success .go_web{    display: block;
+    margin: 0px auto;
+    width: 180px;
+    background-color: #EE6A3C;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;}
+
+.c_message .success .go_phone{
+       display: block;
+    margin: 15px auto;
+    width: 120px;
+    text-align: center;
+    color: #9F9F9F;
+    font-size: 12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

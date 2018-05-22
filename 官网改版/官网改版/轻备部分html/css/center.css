@@ -1,0 +1,125 @@
+body{background-color: #F9F9F9;}
+.c_content{width: 1000px;margin: 0px auto;}
+.c_content{}
+.c_content .c_title{margin: 20px auto;}
+.c_content .c_title a{}
+
+
+
+/* 选项卡示例样式 */
+.teb_main{width: 1000px;padding-bottom: 100px;}
+.teb_tab {
+	overflow: hidden;width: 220px;height: 390px;background-color: #FFF;
+	cursor: pointer;float: left;padding: 30px 0px 0px;}
+.teb_tab li {
+	width: 80px;height: 25px;text-align: center;margin: 0px auto;
+    line-height: 25px;font-size: 16px;margin-bottom: 20px;}
+.teb_tab li.on {
+	background: url("../img/center/f.png") no-repeat center left;
+    color: #47ce8e;    background-size: 3px 16px;}
+.teb_con {width: 750px;overflow: hidden;
+	padding: 10px;float: right;background-color: #FFF;height: 400px;}
+
+/* 基础资料 */
+.teb_con .photo{float: left;width: 200px;}
+.teb_con .photo .p_img{padding-top: 90px;margin-bottom: 15px;}
+.teb_con .photo .p_img img{width: 100px;height: 100px;margin: 0px auto;display: block;}
+.teb_con .photo p{text-align: center;color: #A5A5A5;font-size: 12px;}
+.teb_con .photo a{display: block;width: 90px;height: 25px;
+border: 1px solid #F76831;text-align: center;line-height: 25px;
+margin: 20px auto;border-radius: 20px;color: #F76831;}
+.teb_con .m_form{float: left;width: 400px;margin-left: 30px;padding-top: 85px;}
+.teb_con .m_form .m_tel{color: #9c9c9c;}
+.teb_con .m_form .m_name{color: #9c9c9c;margin: 25px auto;}
+.teb_con .m_form .m_name input{color: #9c9c9c;}
+.teb_con .m_form .m_name em{margin-left: 10px;color: #F76831;font-size: 12px;}
+.teb_con .m_form .m_sex{color: #9c9c9c;}
+.teb_con .m_form .m_sex label{margin-right: 25px;color: #9c9c9c;}
+.teb_con .m_form .m_sex input{margin-right: 5px;}
+.teb_con .m_form .m_but{margin-top: 45px;}
+.teb_con .m_form .m_but a{
+display: block;width: 90px;height: 30px;line-height: 30px;text-align: center;
+color: #fff;background-color: #D8D8D8;font-size: 14px;border-radius: 3px;}
+.teb_con .m_form .m_but a:hover{
+    color: #fff!important;background-color: #D8D8D8!important;}
+
+/* 我的协议 */
+.teb_con .x_message{ width: 670px;margin: 0px auto;padding: 30px 0px;
+	border-bottom: 1px solid #eee;}
+.teb_con .x_message .x_name{}
+.teb_con .x_message .x_name .x_title{width: 300px;float: left;font-size: 14px;}
+.teb_con .x_message .x_name a{
+	float: right;color: #28D38D;margin-left: 15px;width: 60px;
+	height: 20px;display: block;padding-left: 16px;font-size: 13px;
+}
+.teb_con .x_message .x_name .x_down{background: url('../img/center/2.png') no-repeat 0px 2px;
+background-size: 13px;}
+.teb_con .x_message .x_name .x_info{background: url('../img/center/1.png') no-repeat 0px 2px;
+background-size: 13px;}
+.teb_con .x_message .x_introduce{margin-top: 10px;
+font-size: 12px;color: #B3B3B3;line-height: 1.8em;text-align: justify;}
+
+/* 我的订单 */
+.teb_con .order{ width: 670px;margin: 0px auto;padding: 30px 0px;
+	border-bottom: 1px solid #eee;}
+.teb_con .order li{float: left;}
+.teb_con .order .o_title{    width: 285px;}
+.teb_con .order .o_title p{}
+.teb_con .order .o_title span{}
+.teb_con .order .o_time{    width: 110px;
+    text-align: center;
+    line-height: 40px;}
+.teb_con .order .o_state{ width: 80px;
+    text-align: center;
+    line-height: 40px;}
+.teb_con .order .o_state span{}
+.teb_con .order .o_state em{}
+
+.teb_con .order .o_price{    width: 100px;
+    text-align: center;} 
+.teb_con .order .o_price p{}
+.teb_con .order .o_price s{}
+
+.teb_con .order .o_appraise{    width: 80px;    margin-left: 10px;}
+.teb_con .order .o_appraise a{    display: block;
+    width: 80px;
+    height: 25px;
+    background-color: #F65D22;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+    margin: 10px auto 0px;}
+
+/*修改密码*/
+.teb_con .editpwd{ width: 670px;margin: 0px auto;padding: 30px 0px;}
+.teb_con .editpwd .inp{}
+.teb_con .editpwd .inp span{display: block;float: left;}
+.teb_con .editpwd .inp input{float: left;}
+.teb_con .editpwd .inp a{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

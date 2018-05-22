@@ -1,0 +1,128 @@
+.banner{width: 100%;min-width: 1200px;margin: 0px auto;overflow: hidden;}
+
+.hotlist{padding-bottom:30px; width: 100%;min-width: 1200px;background-color: #F8F8F8;padding-top: 20px;}
+.hotlist .h_content{width: 1200px;margin: 0px auto;}
+.hotlist .h_content .h_title{font-size: 25px;padding-top: 20px;margin-bottom: 15px;}
+.hotlist .h_content ul{width: 1200px;margin: 0px auto;}
+.hotlist .h_content ul li{width: 286px;float: left;margin-left: 18px;background-color: #fff;
+margin-bottom: 20px;}
+.hotlist .h_content .h_name{    height: 287px;
+    background: url(../img/10.png) no-repeat;
+    background-size: 100%;}
+.hotlist .h_content .xt_name{ background: url(../img/10-1.png) no-repeat;}
+
+.hotlist .h_content ul li:nth-child(4n+1){
+	margin-left: 0px;
+}
+.hotlist .h_content .listname{font-size: 20px;
+    color: #FFF;
+    margin: 50px 0px 0px 40px;}
+.hotlist .h_content ul li span{    display: block;
+    width: 40px;
+    border-bottom: 5px solid #fff;
+    margin-left: 40px;
+    margin-top: 10px;}
+.hotlist .h_content .f_title{    width: 260px;
+    margin-left: 40px;
+    margin-top: 50px;}
+.hotlist .h_content .f_title a{    display: block;
+    color: #fff;
+    float: left;
+    width: 55px;
+    height: 27px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin-left: 20px;
+    border-radius: 20px;
+    line-height: 27px;
+    margin-bottom: 15px;}
+.hotlist .h_content .f_title a:nth-child(3n+1){
+	margin-left: 0px;
+}
+
+.hotlist .h_content .c_img{width: 286px;}
+.hotlist .h_content .c_title{border-bottom: 1px solid #eee;
+    padding: 10px;}
+.hotlist .h_content .c_title p{    margin: 5px auto 10px;}
+.hotlist .h_content .c_title em{    margin-top: 5px;
+    display: block;
+    color: #26BD74;
+    font-size: 14px;
+    background: url(../img/15.png) no-repeat center left;
+    background-size: 14px;
+    padding-left: 20px;}
+.hotlist .h_content .c_mess{    padding: 10px;}
+.hotlist .h_content .c_teacher{    width: 160px;
+    float: left;}
+.hotlist .h_content .c_teacher img{width: 30px;}
+.hotlist .h_content .c_nub{width: 100px;float: right;text-align: right;}
+
+.hotlist .h_content .s_img{ width: 80px;
+    height: 80px;margin: 0px auto;    padding-top: 35px;}
+.hotlist .h_content .s_img img{    width: 80px;
+    height: 80px;
+    border-radius: 50px;}
+.hotlist .h_content .s_name{text-align: center;
+    margin-top: 10px;
+    font-size: 18px;}
+.hotlist .h_content .s_class{    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 14px;}
+.hotlist .h_content .s_text{    font-size: 14px;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 1.5em;}
+.hotlist .h_content .s_list li{
+	height: 330px;
+}
+
+
+.b_banner{width: 100%;min-width: 1200px;padding: 50px 0px;}
+.b_banner .b_content{width: 1200px;margin: 0px auto;}
+.b_banner .b_content p{text-align: center;font-size: 25px;}
+.b_banner .b_content a{    display: block;
+    width: 230px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #00CC7B;
+    color: #fff;
+    font-size: 16px;
+    margin: 30px auto;}
+
+
+.icolist img {
+    display: initial!important;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

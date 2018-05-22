@@ -1,0 +1,195 @@
+/* @font-face {font-family:zyy; src: url("../fonts/造字工房悦圆.o0%tf")}   */
+/* @font-face {font-family:fzyi; src: url("../fonts/方正稚艺简体.ttf")}  */
+/* @font-face {font-family:fzyuan; src: url("../fonts/方正准圆简体.ttf")}  */
+/* @font-face { font-family:zsh; src: url("../fonts/造字工房尚黑 G0v1 常规体.otf"); } */
+*{margin: 0; padding: 0;color: #646464;font-size: 15px;font-family: "微软雅黑";font-family:"Hiragino Sans GB","Century Gothic", Arial, Verdana, Tahoma,"微软雅黑";}
+select{-webkit-appearance:menulist-button; /*去除系统默认的样式*/-webkit-tap-highlight-color: rgba(0, 0, 0, 0);   /* 点击高亮的颜色*/}
+option{padding: 0;
+margin:0;
+float:left;
+height: 26px;
+padding: 10px 0;/*当时解决输入框光标顶满input框的问题是这么解决的 如果设置了行高就会顶满没有行高的话光标高度=文字的font-size */
+border: none;outline: none;padding-left: 20px;color:#6d6d6d;-webkit-appearance:none; /*去除系统默认的样式*/
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);   /* 点击高亮的颜色*/
+background-color: #fff;/*当input框禁止输入的时候会有一个灰色的底色 项目需要我设置了 白色底 跟页面背景一个颜色。*/}
+label{font-weight: normal;}
+.clear{clear: both; display: block; width: 0px!important; height: 0px!important;}
+.clearR{clear: right;}
+.clearL{clear: left;}
+a {text-decoration: none !important; color: #646464;}
+a:link{text-decoration:none !important; color: #646464;}
+a:visited{text-decoration:none !important; color: #646464;}
+a:hover{text-decoration:none !important; color: #646464;}
+a:active{text-decoration:none !important; color: #646464;}
+button:focus{outline: 0;}
+textarea, select, input[type=text], input[type=password]{border: 1px solid #DCDCDD; padding: 7px 10px;    border-radius: 3px; color: #9c9c9c;}
+select{padding-right:0px;}
+ul,li,dl,dt,dd,p,h1,h2,h3,h5,form,label,button,em,i,b,strong,code{ margin: 0px; padding: 0px; list-style: none;font-style:normal ; }
+.no_select{-moz-user-select:none; /*火狐*/ -webkit-user-select:none; /*webkit浏览器*/ -ms-user-select:none; /*IE10*/ -khtml-user-select:none; /*早期浏览器*/ user-select:none;}
+.header_root{height: 70px;position: absolute;top: 0;left: 0;background: #fff;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);min-width: 1140px;width: 100%;}
+.footer_root{min-height: 141px;}
+.txt_hide{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.line_height {line-height: 170%;}
+.of_hide{overflow: hidden;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+.inline{display: inline;}
+.block{display: block;}
+.inline-block{display: inline-block;}
+
+/*动画*/
+.anim_detault{transition: all .3s;-moz-transition: all .3s;-webkit-transition: all .3s; -o-transition: all .3s;}
+
+
+/*所有下拉框变成直角*/
+.dropdown-menu{border-radius: 0;}
+
+/*改变所有输入框的样式*/
+select,
+input[type=text] {border: 1px solid #DCDCDD;}
+input:focus,
+select:focus,
+textarea:focus{outline: 0;border: 1px solid #26BD74;}
+
+/*头部样式*/
+.header{width: 100%;min-width: 1200px;height: 60px;background-color: #fff;}
+.header .h_content{width: 1200px;margin: 0px auto;}
+.header .h_content .h_left{float: left;width: 700px;position: relative;}
+.header .h_content .h_left a{position: relative;display: block;float: left;padding: 20px 25px;}
+.header .h_content .h_left .logo{padding: 10px 0px;margin-right: 30px;}
+.header .h_content .h_left .logo img{width: 160px;height: 42px;}
+.header .h_content .h_left a:hover{background-color: #F8F8F8;}
+.header .h_content .h_left .logo:hover{background-color: #FFF;}
+
+
+
+
+
+.header .h_content .h_right{float: right;width: 450px;}
+.header .h_content .h_right a{display:block;float: left;
+margin-top: 20px;color: #000!important;    font-size: 13px;}
+.header .h_content .h_right .r_input{float: left;position: relative;
+width: 260px;height: 40px;background-color: #f6f6f6;margin-top: 10px;}
+.header .h_content .h_right .r_input input{
+position: absolute;width: 190px;top: 5px;background-color: #f6f6f6;
+left: 10px;height: 13px;border: 0px;outline: none;}
+.header .h_content .h_right .r_input a{position: absolute;
+position: absolute;top: 7px;margin-top: 0px;right: 7px;width: 25px;
+height: 25px;padding-left: 5px;border-left: 1px solid #ccc;}
+.header .h_content .h_right .r_input a img{
+	width: 25px;height: 25px;}
+
+.header .h_content .h_right span{display: block;float: left;margin: 20px 10px 0px;}
+.header .h_content .h_right em{display: block;float: left;margin-top: 20px;}
+.header .h_content .h_right .mes{    margin-left: 15px;}
+.header .h_content .h_right .login{}
+.header .h_content .h_right .reg{}
+.header .h_content .h_right .photo{    margin-left: 10px;
+    margin-top: 15px;}
+.header .h_content .h_right .photo img{width: 30px;}
+
+
+.footer{width: 100%;min-width: 1200px;padding:50px 0px 30px;
+background-color: #363D41;}
+.footer .f_content{width: 1200px;margin: 0px auto;}
+.footer .f_content .f_left{width: 700px;float: left;}
+.footer .f_content .f_left .f_urllist{}
+.footer .f_content .f_left .f_urllist a{    font-size: 14px;
+    margin-right: 30px;color: #969696;}
+.footer .f_content .f_left .f_falv{    font-size: 13px;
+    margin-top: 35px;color: #969696;}
+.footer .f_content .f_left .f_mes{    font-size: 13px;
+    margin-top: 5px;color: #969696;}
+
+.footer .f_content .f_right{width: 200px;float: right;    margin-top: 30px;}
+.footer .f_content .f_right ul{}
+.footer .f_content .f_right ul li{    width: 45px;
+    float: left;
+    position: relative;margin-right: 20px;}
+.footer .f_content .f_right .f_img{
+    width: 45px;}
+.footer .f_content .f_right .t_img{
+	    position: absolute;
+    top: -132px;
+    left: -40px;display: none;
+    width: 120px;
+}
+.footer .f_content .icolist{
+	    width: 1200px;
+    float: left;
+    text-align: center;
+    margin-top: 35px;
+}
+.footer .f_content .icolist a{
+color: #969696;
+    font-size: 13px;
+}
+.footer .f_content .icolist a img{width: 20px!important;}
+
+
+
+/* 选项卡示例样式 */
+.main,.box {width: 485px;height: 306px;    z-index: 999;
+	position: absolute;    overflow: hidden;
+	top:62px;    border-top: 1px solid #eee;
+	left: 270px;    background-color: #FFF;}
+.tab {
+	overflow: hidden;
+	width: 150px;
+	background-color: #F8F8F8;
+	cursor: pointer;float: left;
+}
+.tab li {
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;border-bottom: 1px solid #eee;
+}
+.tab li.on {
+	width: 146px;
+	background-color: #E2E2E2;
+    border-left: 4px solid #47ce8e;
+}
+.con {
+	width: 315px;overflow: hidden;
+	padding: 10px;float: left;
+	background-color: #FFF;
+}
+.con a:hover{background-color: #FFF!important;}
+
+
+
+/* 其他样式 */
+.box h1 {text-align: center;font:bold 26px/2 tahoma,"\5FAE\8F6F\96C5\9ED1";cursor: pointer;color: #f60;}
+.info {border: 1px dashed #ddd;padding: 10px;line-height: 2;background: #f4f4f4;}
+.info p {padding:3px 0;text-indent: 2em;}
+	.code {font-family:Fixedsys;font-size: 12px;color: #06f;}
+	.info pre {padding-left: 2em;}
+.h3 {font-size: 16px;color: #06f;font-weight: bold;line-height: 1.5;margin-top: 20px;}
+.down {}
+	.down a {display: block;width: 300px;height: 40px;line-height: 40px;margin: 20px auto;border: 1px solid #ddd;text-align: center;background: #f4f4f4;border-radius:8px;font-size: 14px;}
+	.down a:hover {background: #f60;border: 1px solid #f60;color: #fff;text-decoration: none;}
+#copy {text-align: center;padding: 20px;}
+.good {}
+	.good li {line-height: 2;font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
